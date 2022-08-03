@@ -1,0 +1,16 @@
+ALGORITHM calculTask
+VAR
+        nbrvowels,nmbrcaractere,nbrspace :INTEGER;
+        ch:CHAR
+BEGIN
+    while(ch<> '.'){
+        read(ch)
+        nmbrcaractere++
+        if(ch in [a,e,i,u,o,y])then
+        nbrvowels++
+        end if
+        if (ch =' ') then
+        nbrspace++
+
+    }
+END

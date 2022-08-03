@@ -1,0 +1,15 @@
+ALGORITHM task2
+VAR
+s :INTEGER
+t1: ARRAY_OF type[length];
+t2 : ARRAY_OF type[length];
+T= t1 concat t2
+FOR let i FROM 0 TO length t1 STEP 1 DO
+FOR j FROM 0 TO length t2 STEP 1  DO
+    if t1=t2 then
+    t1=0;
+    t2=2;
+s=t1+t2 ;
+
+END_FOR
+END_FOR
